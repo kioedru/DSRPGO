@@ -37,7 +37,7 @@ pip install torch
 
 ## Explanation of files and folders
 
-### Folders
+### Folders in codespace
 | Name                        | Description                                                  | File Type |
 | :-------------------------- | :----------------------------------------------------------- | :-------: |
 | `data`                      | Preprocessed datasets for pretraining (`/pretrain`) and fine-tuning (`/finetune`) |  `.pkl`   |
@@ -75,14 +75,14 @@ python codespace/pretrain/bimamba/pretrain.py
 
 #### Step1: Train MSLB Branch
 
-- train **MSLB Branch Model** to predict BPO/MFO/CCO terms run sh:
+- To train **MSLB Branch Model** to predict BPO/MFO/CCO terms run sh:
 
 ```bash
 python codespace/finetune/MSLB/finetune.py --aspect P --num_class 45
 python codespace/finetune/MSLB/finetune.py --aspect F --num_class 38
 python codespace/finetune/MSLB/finetune.py --aspect C --num_class 35
 ```
-- train **DSRPGO Model** to predict BPO/MFO/CCO terms run sh:
+- To train **DSRPGO Model** to predict BPO/MFO/CCO terms run sh:
 ```bash
 python codespace/finetune/DSRPGO/finetune.py --aspect P --num_class 45
 python codespace/finetune/DSRPGO/finetune.py --aspect F --num_class 38
@@ -93,6 +93,9 @@ During model training, test results for each epoch (including epoch number, runt
 
 
 ## Citation
+
+If you use DSRPGO for your research, or incorporate our learning algorithms in your work, please cite:
+
 ```
 
 ```
