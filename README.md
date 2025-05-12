@@ -38,16 +38,16 @@ pip install torch
 ## Explanation of files and folders
 
 ### Folders
-| Name                        | Description                                                                 |    File Type |
-| :-------------------------- | :-------------------------------------------------------------------------- | -----------: |
-| `data`                      | Preprocessed datasets for pretraining (`/pretrain`) and fine-tuning (`/finetune`) | `.pkl` file  |
-| `finetune/DSRPGO`           | Core code of DSRPGO                                                        | `.pkl` file  |
-| `finetune/MSLB`             | Core code of MSLB                                                          | `.py` files  |
-| `mamba`                     | Code package for bimamba                                                   | `.py` files  |
-| `model`                     | Core implementation of models and loss functions                           | `.py` files  |
-| `pretrain/bimamba`          | Core code of PSSI Encoder                                                  | `.py` files  |
-| `pretrain/one_feature_only` | Core code of PSI Encoder                                                   | `.py` file   |
-| `utils`                     | Utility code such as data loading and metric calculation                   | `.py` file   |
+| Name                        | Description                                                  | File Type |
+| :-------------------------- | :----------------------------------------------------------- | --------: |
+| `data`                      | Preprocessed datasets for pretraining (`/pretrain`) and fine-tuning (`/finetune`) |    `.pkl` |
+| `finetune/DSRPGO`           | Core code of DSRPGO                                          |    `.pkl` |
+| `finetune/MSLB`             | Core code of MSLB                                            |     `.py` |
+| `mamba`                     | Code package for bimamba                                     |     `.py` |
+| `model`                     | Core implementation of models and loss functions             |     `.py` |
+| `pretrain/bimamba`          | Core code of PSSI Encoder                                    |     `.py` |
+| `pretrain/one_feature_only` | Core code of PSI Encoder                                     |     `.py` |
+| `utils`                     | Utility code such as data loading and metric calculation     |     `.py` |
 
 ## Command Line Usage
 
