@@ -93,9 +93,6 @@ During model training, test results for each epoch (including epoch number, runt
 
 
 ## Citation
-
-If you use DSRPGO for your research, or incorporate our learning algorithms in your work, please cite:
-
 ```
 
 ```
