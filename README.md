@@ -46,7 +46,7 @@ pip install torch
 | `mamba`                     | Code package for bimamba                                     |   `.py`   |
 | `model`                     | Core implementation of models and loss functions             |   `.py`   |
 | `pretrain/bimamba`          | Core code of PSSI Encoder                                    |   `.py`   |
-| `pretrain/one_feature_only` | Core code of PSI Encoder                                     |   `.py`   |
+| `pretrain/one_feature_only` | Core code of PSeI Encoder                                     |   `.py`   |
 | `utils`                     | Utility code such as data loading and metric calculation     |   `.py`   |
 
 ## Command Line Usage
@@ -63,7 +63,7 @@ For preprocessing protein sequence data, please refer to [ProtT5](https://huggin
 python codespace/pretrain/one_feature_only/pretrain.py
 ```
 
-- To train the **PSI Encoder**, run:
+- To train the **PSSI Encoder**, run:
 
 ```
 python codespace/pretrain/bimamba/pretrain.py
