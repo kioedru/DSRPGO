@@ -17,8 +17,6 @@ This repository contains script which were used to build and train the DSRPGO mo
 * All the dependencies are listed in `requirements.txt` file.
 
 ### Install from github
-The source code for DSRPGO can be obtained from the official GitHub repository.
-
 To clone the repository, use the following command:
 
 ```bash
