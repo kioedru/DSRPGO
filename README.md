@@ -2,7 +2,7 @@
 
 Multimodal protein features play a crucial role in protein function prediction. However, these features encompass a wide range of information, ranging from structural data and sequence features to protein attributes and interaction networks, making it challenging to decipher their complex interconnections. In this work, we propose a multimodal protein function prediction method (DSRPGO) by utilizing dynamic selection and reconstructive pre-training mechanisms. To acquire complex protein information, we introduce reconstructive pre-training to mine more fine-grained information with low semantic levels. Moreover, we put forward the Bidirectional Interaction Module (BInM) to facilitate interactive learning among multimodal features. Additionally, to address the difficulty of hierarchical multi-label classification in this task, a Dynamic Selection Module (DSM) is designed to select the feature representation that is most conducive to current protein function prediction. Our proposed DSRPGO model significantly enhances Fmax by at least 0.019, 0.018, and 0.086 for BPO, MFO, and CCO on human datasets, thereby outperforming other benchmark models.
 
-![main](https://raw.githubusercontent.com/kioedru/typora/master/img/main.jpeg)
+![main1](https://raw.githubusercontent.com/kioedru/typora/master/img/main1.png)
 
 DSRPGO is a two-step protein function annotation prediction model, which is jointly constructed by pretrain and finetune phase. The superior performance of DSRPGO is demonstrated with comparative benchmarks.
 
@@ -45,7 +45,7 @@ You can access the full dataset and model parameter dictionary from [here](https
 | `mamba`                     | Code package for bimamba                                     |   `.py`   |
 | `model`                     | Core implementation of models and loss functions             |   `.py`   |
 | `pretrain/bimamba`          | Core code of PSSI Encoder                                    |   `.py`   |
-| `pretrain/one_feature_only` | Core code of PSI Encoder                                     |   `.py`   |
+| `pretrain/one_feature_only` | Core code of PSeI Encoder                                     |   `.py`   |
 | `utils`                     | Utility code such as data loading and metric calculation     |   `.py`   |
 
 ## Command Line Usage
@@ -62,7 +62,7 @@ For preprocessing protein sequence data, please refer to [ProtT5](https://huggin
 python codespace/pretrain/one_feature_only/pretrain.py
 ```
 
-- To train the **PSI Encoder**, run:
+- To train the **PSSI Encoder**, run:
 
 ```
 python codespace/pretrain/bimamba/pretrain.py
