@@ -34,7 +34,7 @@ pip install torch
 
 
 ## Explanation of files and folders
-You can access the full dataset and model parameter dictionary from [here](https://drive.google.com/drive/folders/1uonQwE0C1tj7DaziroulHVwduU2qFfbP?usp=drive_link).
+You can access **the full dataset** and **model parameter dictionary** from [here](https://drive.google.com/drive/folders/1uonQwE0C1tj7DaziroulHVwduU2qFfbP?usp=drive_link).
 
 ### Folders in codespace
 | Name                        | Description                                                  | File Type |
